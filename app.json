@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/time/time",
+    "pages/sign/sign",
+    "pages/calendar/calendar",
+    "pages/signRecord/signRecord",
+    "pages/my/my",
+    "pages/admire/admire",
+    "pages/about/about",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "R90 睡眠法",
+    "navigationBarBackgroundColor": "#010101",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#010101",
+    "color": "#747DB1",
+    "selectedColor": "#6D7ACF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/sleep-2.png",
+        "selectedIconPath": "images/sleep-1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
